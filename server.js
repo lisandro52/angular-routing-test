@@ -1,4 +1,5 @@
-﻿//get the needed libraries
+﻿/// <reference path="typings/node/node.d.ts"/>
+//get the needed libraries
 var express = require('express');
 var app = express();
 var path = require('path');
