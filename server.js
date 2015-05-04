@@ -8,7 +8,7 @@ app.use(express.static(__dirname + '/public'));
 
 //set up our one route to the index.html file
 app.get('*', function (req, res) {
-    console.log('Incoming connection');
+    console.log('Incoming connection changing');
     res.sendFile(path.join(__dirname + '/public/views/index.html'));
 });
 
