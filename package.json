@@ -1,0 +1,8 @@
+{
+	"name": "angular-routing-app",
+	"description": "angular-routing-app",
+	"main": "server.js",
+	"dependencies": { 
+		"express":  "~4.9.1"
+	}
+}
