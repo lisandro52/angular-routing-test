@@ -1,0 +1,30 @@
+
+body
+{
+	padding-top:50px;
+}
+
+#content-views
+{
+	position: relative;
+}
+
+.ng-enter, .ng-leave
+{
+	width: 100%;
+	position: absolute;
+}
+
+.ng-enter
+{
+	-webkit-animation:fadeInDown 1.2s both ease-in;
+	-moz-animation:fadeInDown 1.2s both ease-in;
+	animation:fadeInDown 1.2s both ease-in;
+}
+
+.ng-leave
+{
+	-webkit-animation:fadeOutDown 0.3s both ease-in;
+	-moz-animation:fadeOutDown 0.3s both ease-in;
+	animation:fadeOutDown 0.3s both ease-in;
+}
